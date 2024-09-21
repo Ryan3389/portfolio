@@ -1,7 +1,13 @@
 import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
 const App = () => {
     return (
-        <Outlet />
+        <>
+            <Navbar />
+            <main className='portfolio-container'>
+                <Outlet />
+            </main>
+        </>
     )
 }
 
