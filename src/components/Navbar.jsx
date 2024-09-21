@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <nav className="  bg-gray-900  border-gray-200 w-screen  text-white h-[10vh]">
+        <nav className="  bg-white  border-gray-200 w-screen  text-gray-900 h-[10vh]">
 
             <div className="flex flex-wrap items-center justify-between mx-auto p-4 w-[80%]">
                 <span className="self-center text-2xl font-semibold dark:text-white">Ryan Cuthbert</span>
