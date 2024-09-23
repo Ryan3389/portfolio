@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
@@ -6,10 +7,10 @@ const Navbar = () => {
             <div className="flex flex-wrap items-center justify-between mx-auto p-4 w-[80%]">
                 <span className="self-center text-2xl font-semibold dark:text-white">Ryan Cuthbert</span>
                 <div>
-                    <a className="py-2 px-3 cursor-pointer">Home</a>
-                    <a className="py-2 px-3 cursor-pointer">Portfolio</a>
-                    <a className="py-2 px-3 cursor-pointer">Resume</a>
-                    <a className="py-2 px-3 cursor-pointer">Contact</a>
+                    <Link to='/' className="py-2 px-3 cursor-pointer">Home</Link>
+                    <Link className="py-2 px-3 cursor-pointer">Portfolio</Link>
+                    <Link className="py-2 px-3 cursor-pointer">Resume</Link>
+                    <Link to='/contact' className="py-2 px-3 cursor-pointer">Contact</Link>
                 </div>
 
             </div>
