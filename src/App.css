@@ -26,3 +26,9 @@ textarea {
     resize: none;
     padding: 5px 10px;
 }
+
+.project-img {
+    height: 150x;
+    width: 200px;
+    object-fit: cover;
+}
