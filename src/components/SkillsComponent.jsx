@@ -5,7 +5,7 @@ const SkillsComponent = ({ heading, image, description, link }) => {
             <div className="flex justify-center mb-2">
                 <img src={image} alt="project" className="project-img" />
             </div>
-            <p className="text-gray-500">{description}</p>
+            <p className="text-secondaryText">{description}</p>
             {link && <a className="flex justify-center mt-2" rel="noopener" target="_blank" href={link}>GitHub Repository</a>}
 
         </div>

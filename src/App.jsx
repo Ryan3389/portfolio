@@ -6,9 +6,7 @@ const App = () => {
     return (
         <DataProvider>
             <Navbar />
-            <main className='portfolio-container'>
-                <Outlet />
-            </main>
+            <Outlet />
         </DataProvider>
     )
 }

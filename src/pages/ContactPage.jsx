@@ -42,7 +42,7 @@ const ContactPage = () => {
 
 
     return (
-        <section className='form-section'>
+        <section className='form-section bg-backgroundColor min-h-screen'>
             <div className="form-container">
                 <h1 className='text-4xl'>Lets Connect</h1>
                 <p>Fill out the form below to get in touch</p>
@@ -76,7 +76,7 @@ const ContactPage = () => {
                             required
                         />
                     </div>
-                    <input type="submit" value="Send" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-gray-300 rounded-lg focus:ring-4 focus:ring-gray-100 dark:text-white cursor-pointer " />
+                    <input type="submit" value="Send" className=" px-5 py-3 font-medium bg-btnBackground border border-btnBorder hover:bg-btnHover rounded-lg cursor-pointer w-[100%] " />
                 </form>
             </div>
         </section>
