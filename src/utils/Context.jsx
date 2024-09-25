@@ -1,39 +1,34 @@
 import { createContext, useState } from "react";
-
+import weatherApp from '../../src/images/weatherApp.png'
+import blog from '../../src/images/blog.png'
 export const DataContext = createContext()
 
 export const DataProvider = ({ children }) => {
     const [projectData] = useState([
         {
-            heading: "Project 1",
+            heading: "Weather App",
+            image: weatherApp,
             description: "Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.",
-            link: "https://github.com/Ryan3389"
+            link: "https://ryan3389.github.io/Weather-Forecast-App/"
         },
         {
-            heading: "Project 2",
+            heading: "Blog",
+            image: blog,
             description: "Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.",
-            link: "https://github.com/Ryan3389"
+            link: "https://ryan3389.github.io/Ryan-Cuthbert-Blog/"
         },
         {
-            heading: 'Project 3',
+            heading: 'SQL Company Manager',
+            image: blog,
             description: "Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.",
-            link: 'https://github.com/Ryan3389'
+            link: "https://github.com/Ryan3389/sql-company-manager"
         },
         {
-            heading: 'Project 4',
+            heading: 'Social Network API',
+            image: blog,
             description: "Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.",
-            link: 'https://github.com/Ryan3389'
+            link: "https://github.com/Ryan3389/Social-Network-Api"
         },
-        {
-            heading: 'Project 5',
-            description: "Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.",
-            link: 'https://github.com/Ryan3389'
-        },
-        {
-            heading: 'Project 6',
-            description: "Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.",
-            link: '/https://github.com/Ryan3389'
-        }
     ]);
 
     const [skillsData] = useState([
