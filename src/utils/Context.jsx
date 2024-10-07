@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import weatherApp from '../../src/images/weatherApp.png'
-import blog from '../../src/images/blog.png'
+import speakEasy from '../../src/images/speakEasy.png'
 import socialNetworkApi from '../../src/images/socialNetworkApi.png'
 import sqlCompanyManager from '../../src/images/sqlCompanyManager.png'
 export const DataContext = createContext()
@@ -14,10 +14,10 @@ export const DataProvider = ({ children }) => {
             link: "https://github.com/Ryan3389/Weather-Forecast-App",
         },
         {
-            heading: "Blog",
-            image: blog,
-            description: "A responsive blog interface where users can add their username and post messages, with submissions displayed dynamically on the page. The project includes a toggle feature to switch between dark and light themes, offering a personalized user experience. Built using modern frontend technologies for a clean and intuitive design.",
-            link: 'https://github.com/Ryan3389/Ryan-Cuthbert-Blog'
+            heading: "SpeakEasy",
+            image: speakEasy,
+            description: "Welcome to SpeakEasy, the next-generation language translation app powered by AI. Instantly translate text into multiple languages with unparalleled accuracy. Whether you're traveling, learning a new language, or connecting with friends across the globe, we've got you covered. No more misunderstandings—experience seamless communication, anywhere, anytime.",
+            link: 'https://github.com/Ryan3389/language-translation-app'
         },
         {
             heading: 'SQL Company Manager',
