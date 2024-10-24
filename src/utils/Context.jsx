@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import weatherApp from '../../src/images/weatherApp.png'
+import movieSearch from '../../src/images/movieSearch.png'
 import speakEasy from '../../src/images/speakEasy.png'
 import socialNetworkApi from '../../src/images/socialNetworkApi.png'
 import sqlCompanyManager from '../../src/images/sqlCompanyManager.png'
@@ -8,10 +8,10 @@ export const DataContext = createContext()
 export const DataProvider = ({ children }) => {
     const [projectData] = useState([
         {
-            heading: "Weather App",
-            image: weatherApp,
-            description: "A dynamic weather application that utilizes the OpenWeather API to provide real-time weather updates and a 5-day forecast for any city. The app features search history saving, allowing users to quickly access weather details from previous searches, and offers clickable search results for instant weather information retrieval.",
-            link: "https://github.com/Ryan3389/Weather-Forecast-App",
+            heading: "PopChoice",
+            image: movieSearch,
+            description: "Welcome to PopChoice, your AI-powered movie recommendation app. Discover personalized movie suggestions in real-time, tailored to your tastes. Simply enter the type of movie you're in the mood for, and let AI find the perfect match. Dive into a world of movies, effortlessly curated just for you.",
+            link: "https://github.com/Ryan3389/movie-search",
         },
         {
             heading: "SpeakEasy",
