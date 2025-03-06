@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
-import TrackFinder from '../images/TrackFinder.png'
-import BookQuest from '../images/BookQuest.png'
+import marketplace from '../images/marketplace.png'
+import resumePro from '../images/resumePro.png'
 import NewsHub from '../images/NewsHub.png'
 import TastyTable from '../images/TastyTable.png'
 export const DataContext = createContext()
@@ -9,15 +9,15 @@ export const DataProvider = ({ children }) => {
     const [projectData] = useState([
         {
             heading: "Marketplace",
-            image: TrackFinder,
+            image: marketplace,
             description: "Marketplace, powered by Stripe, allows users to browse categories, and make secure payments",
             link: "https://github.com/Ryan3389/ecommerce-marketplace",
         },
         {
             heading: "ResumePro",
-            image: BookQuest,
+            image: resumePro,
             description: "ResumePro, powered by OpenAI, allows users to recieve AI generated feedback, providing users with educational resources for self improvement",
-            link: 'https://github.com/Ryan3389/Book-Explorer'
+            link: 'https://github.com/Ryan3389/resume-assist'
         },
         {
             heading: 'NewsHub',
