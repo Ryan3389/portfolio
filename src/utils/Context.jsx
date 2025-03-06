@@ -8,15 +8,15 @@ export const DataContext = createContext()
 export const DataProvider = ({ children }) => {
     const [projectData] = useState([
         {
-            heading: "TrackFinder",
+            heading: "Marketplace",
             image: TrackFinder,
-            description: "TrackFinder is a simple and efficient CRUD API that allows users to search for music using the iTunes API",
-            link: "https://github.com/Ryan3389/TrackFinder",
+            description: "Marketplace, powered by Stripe, allows users to browse categories, and make secure payments",
+            link: "https://github.com/Ryan3389/ecommerce-marketplace",
         },
         {
-            heading: "BookQuest",
+            heading: "ResumePro",
             image: BookQuest,
-            description: "BookQuest is a simple an efficient is a simple and efficient CRUD application that allows users to search for books, and browse through different genres.",
+            description: "ResumePro, powered by OpenAI, allows users to recieve AI generated feedback, providing users with educational resources for self improvement",
             link: 'https://github.com/Ryan3389/Book-Explorer'
         },
         {
