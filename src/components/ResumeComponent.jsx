@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { DataContext } from "../utils/Context"
 import ResumeSkills from "./ResumeSkills"
 
+
 const ResumeComponent = () => {
     const { skillsData } = useContext(DataContext)
 

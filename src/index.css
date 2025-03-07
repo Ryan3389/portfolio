@@ -8,9 +8,58 @@
     padding: 0;
 }
 
+:root {
+    --backgroundColor: '#F9F9F9',
+        --secondaryColor: '#333333'
+        --secondaryText: '#6B6B6B'
+        --btnBackgroundColor: '#B0C4DE'
+        --btnBorderColor: '#4682B4'
+        --btnHoverColor: '#5F9EA0'
+}
+
+/* Header + Navbar */
+
+body {
+    background-color: #F9F9F9;
+}
+
+header {
+    height: 10vh;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav-links a {
+    margin: 0 8px;
+}
+
+
+
+
+/* Form */
+
+.submit-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
 .form-section {
-    height: 80vh;
     padding-top: 75px;
+    width: 90vw;
+    margin: auto;
+}
+
+form {
+    width: 60%;
+    margin: auto;
 }
 
 .form-container {
@@ -18,9 +67,10 @@
     margin: auto;
 }
 
-.form-container h1,
+.form-section h1,
 p {
     text-align: center;
+    margin: 5px 0;
 }
 
 .input-div input,
@@ -38,7 +88,6 @@ textarea {
 }
 
 .project-img {
-    height: 150x;
     width: 200px;
     object-fit: cover;
 }
@@ -61,6 +110,54 @@ textarea {
     margin: auto;
 }
 
-.home-page-img {
-    border-radius: 50px;
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+
+    nav p,
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    .form-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .form-section p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav p,
+    .nav-links a {
+        font-size: 0.8rem;
+    }
+
+    .form-section h1 {
+        font-size: 1.6rem;
+    }
+
+    .form-section p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav p,
+    .nav-links a {
+        font-size: 0.7rem;
+    }
+
+    .form-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-section p {
+        font-size: 0.7rem;
+    }
 }

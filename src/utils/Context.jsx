@@ -4,6 +4,8 @@ import resumePro from '../images/resumePro.png'
 import NewsHub from '../images/NewsHub.png'
 import TastyTable from '../images/TastyTable.png'
 export const DataContext = createContext()
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLaptop, faDatabase, faServer } from "@fortawesome/free-solid-svg-icons"
 
 export const DataProvider = ({ children }) => {
     const [projectData] = useState([
@@ -36,17 +38,18 @@ export const DataProvider = ({ children }) => {
     const [skillsData] = useState([
         {
             heading: "Front End",
-            description: 'Upon completing this program, I have created a series of projects that showcase my extensive knowledge in the following areas',
+            description: 'I have extensive knowledge creating visually appealing user interfaces using the latest technologies',
             skills: ['HTML', 'CSS', 'JavaScript', 'React']
         },
         {
+
             heading: 'Server-Side',
-            description: 'Beyond the front end, I have created a variety of projects showcasing my ability to create robust and efficient backend systems and RESTful APIs using the following technologies:',
+            description: 'I have extensive knowledge in creating a backend using modern technologies, built to scale',
             skills: ['Node.JS', 'Express.JS', 'GraphQL', 'REST API']
         },
         {
             heading: 'Backend',
-            description: 'Beyond the front end, I have created a variety of projects showcasing my ability to create robust and efficient backend systems and RESTful APIs using the following technologies:',
+            description: 'I have extensive knowledge in creating a backend using modern technologies, built to scale',
             skills: ['MongoDB', 'PostgreSQL', 'Mongoose', 'Sequelize']
         }
     ]);
