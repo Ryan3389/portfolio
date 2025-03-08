@@ -8,14 +8,6 @@
     padding: 0;
 }
 
-:root {
-    --backgroundColor: '#F9F9F9',
-        --secondaryColor: '#333333'
-        --secondaryText: '#6B6B6B'
-        --btnBackgroundColor: '#B0C4DE'
-        --btnBorderColor: '#4682B4'
-        --btnHoverColor: '#5F9EA0'
-}
 
 /* Header + Navbar */
 
@@ -41,8 +33,11 @@ nav {
     margin: 0 8px;
 }
 
+/* Home Page */
 
-
+.home-page-img {
+    border-radius: 50px;
+}
 
 /* Form */
 

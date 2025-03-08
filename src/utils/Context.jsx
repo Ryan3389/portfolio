@@ -38,18 +38,18 @@ export const DataProvider = ({ children }) => {
     const [skillsData] = useState([
         {
             heading: "Front End",
-            description: 'I have extensive knowledge creating visually appealing user interfaces using the latest technologies',
+            description: 'I have extensive experience in designing and developing visually engaging user interfaces using cutting-edge technologies.',
             skills: ['HTML', 'CSS', 'JavaScript', 'React']
         },
         {
 
             heading: 'Server-Side',
-            description: 'I have extensive knowledge in creating a backend using modern technologies, built to scale',
+            description: 'I specialize in building scalable and efficient server-side architectures using modern technologies',
             skills: ['Node.JS', 'Express.JS', 'GraphQL', 'REST API']
         },
         {
             heading: 'Backend',
-            description: 'I have extensive knowledge in creating a backend using modern technologies, built to scale',
+            description: 'I have a strong expertise in developing robust and scalable backend solutions with modern technologies',
             skills: ['MongoDB', 'PostgreSQL', 'Mongoose', 'Sequelize']
         }
     ]);
