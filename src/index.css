@@ -123,6 +123,16 @@ textarea {
     .form-section p {
         font-size: 0.9rem;
     }
+
+    .projects-section,
+    .resume-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .projects-section,
+    .resume-section p {
+        font-size: 0.9rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -139,6 +149,16 @@ textarea {
     .form-section p {
         font-size: 0.8rem;
     }
+
+    .projects-section,
+    .resume-section h2 {
+        font-size: 1.7rem;
+    }
+
+    .projects-section,
+    .resume-section p {
+        font-size: 0.8rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -153,6 +173,16 @@ textarea {
     }
 
     .form-section p {
+        font-size: 0.7rem;
+    }
+
+    .projects-section,
+    .resume-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .projects-section,
+    .resume-section p {
         font-size: 0.7rem;
     }
 }
