@@ -27,12 +27,12 @@ export const DataProvider = ({ children }) => {
             description: "NewsHub is a simple CRUD application, powered by the news api, allowing users to browse different news articles in different categories.",
             link: "https://github.com/Ryan3389/news"
         },
-        {
-            heading: 'TastyTable',
-            image: TastyTable,
-            description: "TastyTable is a simple CRUD application, powered by theMealDB api, allowing users to browse different recipes in different categories.",
-            link: "https://github.com/Ryan3389/TastyTable"
-        },
+        // {
+        //     heading: 'TastyTable',
+        //     image: TastyTable,
+        //     description: "TastyTable is a simple CRUD application, powered by theMealDB api, allowing users to browse different recipes in different categories.",
+        //     link: "https://github.com/Ryan3389/TastyTable"
+        // },
     ]);
 
     const [skillsData] = useState([

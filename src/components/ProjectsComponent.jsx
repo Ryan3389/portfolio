@@ -6,7 +6,7 @@ const ProjectsComponent = () => {
     const { projectData } = useContext(DataContext);
 
     return (
-        <article className="m-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <article className="m-auto grid grid-cols-1 md:grid-cols-3 gap-8">
             {projectData.map((project, index) => (
                 <SkillsComponent
                     key={index}
