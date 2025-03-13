@@ -1,11 +1,10 @@
 import { createContext, useState } from "react";
 import marketplace from '../images/marketplace.png'
 import resumePro from '../images/resumePro.png'
-import NewsHub from '../images/NewsHub.png'
-import TastyTable from '../images/TastyTable.png'
+// import NewsHub from '../images/NewsHub.png'
+import TuneFlow from '../images/TuneFlow.png'
 export const DataContext = createContext()
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLaptop, faDatabase, faServer } from "@fortawesome/free-solid-svg-icons"
+
 
 export const DataProvider = ({ children }) => {
     const [projectData] = useState([
@@ -22,10 +21,10 @@ export const DataProvider = ({ children }) => {
             link: 'https://github.com/Ryan3389/resume-assist'
         },
         {
-            heading: 'NewsHub',
-            image: NewsHub,
-            description: "NewsHub is a simple CRUD application, powered by the news api, allowing users to browse different news articles in different categories.",
-            link: "https://github.com/Ryan3389/news"
+            heading: 'TuneFlow',
+            image: TuneFlow,
+            description: "TuneFlow, powered by the iTunes API, brings you the latest music by the biggest stars.",
+            link: "https://github.com/Ryan3389/TuneFlow"
         },
 
     ]);
