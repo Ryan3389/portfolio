@@ -37,7 +37,7 @@ export const DataProvider = ({ children }) => {
 
             heading: 'Server-Side',
             description: 'I specialize in building scalable and efficient server-side architectures using modern technologies',
-            skills: ['Node.JS', 'Express.JS', 'GraphQL', 'REST API']
+            skills: ['C#', 'Node.JS', 'Express.JS', 'GraphQL', 'REST API']
         },
         {
             heading: 'Backend',
