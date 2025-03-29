@@ -4,7 +4,6 @@ import resumePro from '../images/resumePro.png'
 import TuneFlow from '../images/TuneFlow.png'
 export const DataContext = createContext()
 
-
 export const DataProvider = ({ children }) => {
     const [projectData] = useState([
         {
