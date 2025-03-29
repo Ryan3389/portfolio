@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import marketplace from '../images/marketplace.png'
 import resumePro from '../images/resumePro.png'
-import TuneFlow from '../images/TuneFlow.png'
+import TuneFlow from '../images/tuneFlow.png'
 export const DataContext = createContext()
 
 export const DataProvider = ({ children }) => {
