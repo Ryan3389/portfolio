@@ -1,7 +1,6 @@
 import { createContext, useState } from "react";
 import marketplace from '../images/marketplace.png'
 import resumePro from '../images/resumePro.png'
-// import NewsHub from '../images/NewsHub.png'
 import TuneFlow from '../images/TuneFlow.png'
 export const DataContext = createContext()
 
